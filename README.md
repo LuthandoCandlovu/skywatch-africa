@@ -1,91 +1,74 @@
 <div align="center">
 
-# 🌍 SkyWatch Africa
+<!-- Animated Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=SkyWatch%20Africa&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Satellite%20Imagery%20for%20Citizen%20Scientists&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
-![SkyWatch Africa](https://img.shields.io/badge/SkyWatch-Africa-FF6B35?style=for-the-badge&logo=satellite&logoColor=white)
+<!-- Typing Animation -->
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=22&duration=3000&pause=800&color=FF6B35&center=true&vCenter=true&multiline=true&width=700&height=80&lines=🛰️+Track+environmental+change+across+Africa;📊+Real-time+NDVI%2C+change+detection+%26+more;🌍+Open+to+researchers%2C+scientists+%26+curious+minds" alt="Typing SVG" />
+
+<br/>
+
+<!-- Badges -->
+[![Python](https://img.shields.io/badge/Python_3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![React](https://img.shields.io/badge/React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-FFD166?style=for-the-badge)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
 
-**Empowering citizen scientists across Africa to track environmental changes through satellite imagery** 🛰️
+<br/>
 
-[Features](#-key-features) • [Architecture](#-system-architecture) • [Quick Start](#-getting-started) • [API Docs](#-api-documentation) • [Contributing](#-contributing)
+[![GitHub Stars](https://img.shields.io/github/stars/yourusername/skywatch-africa?style=flat-square&color=FF6B35&label=⭐%20Stars)](https://github.com/yourusername/skywatch-africa/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/yourusername/skywatch-africa?style=flat-square&color=06D6A0&label=🍴%20Forks)](https://github.com/yourusername/skywatch-africa/network)
+[![Issues](https://img.shields.io/github/issues/yourusername/skywatch-africa?style=flat-square&color=FFD166&label=🐛%20Issues)](https://github.com/yourusername/skywatch-africa/issues)
 
 </div>
 
 ---
 
-## 📑 Table of Contents
+<!-- Hero Screenshot -->
+<img src="https://github.com/user-attachments/assets/d0b73f87-3c00-4e35-a2f8-da81f3a02054" alt="SkyWatch Africa Dashboard" width="100%"/>
 
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [System Architecture](#-system-architecture)
-- [Technology Stack](#-technology-stack)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Backend Setup](#backend-setup)
-  - [Frontend Setup](#frontend-setup)
-  - [Docker Setup](#-docker-setup-alternative)
-- [API Documentation](#-api-documentation)
-- [Project Structure](#-project-structure)
-- [Security Best Practices](#-security-best-practices)
-- [Troubleshooting](#-troubleshooting)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Support](#-support)
+<br/>
 
 ---
 
-## 🌟 Overview
+<div align="center">
 
-SkyWatch Africa is a cutting-edge platform that democratizes access to satellite imagery analysis. Built for researchers, environmentalists, and citizen scientists, it provides real-time insights into environmental changes across the African continent.
+## 🌍 &nbsp;What is SkyWatch Africa?
 
-### What Makes Us Different
+</div>
 
-| | |
-|---|---|
-| 🎯 **Africa-Focused** | Tailored datasets and analysis for African environmental challenges |
-| 🚀 **Real-Time Processing** | Instant satellite imagery analysis and visualization |
-| 🗺️ **Interactive Maps** | Intuitive geospatial exploration with GPS integration |
-| 📊 **Smart Analytics** | AI-powered insights from multi-source satellite data |
-| 🌐 **Accessible** | Browser-based platform requiring no specialized software |
+SkyWatch Africa is an open platform for people who want to **actually understand** what's happening to the land around them — not just read reports about it. Pull satellite imagery from three major providers, run vegetation and change-detection analysis on any region, and explore everything on an interactive map. No GIS degree required.
+
+Built with African environmental challenges in mind, but the data doesn't stop at any border.
 
 ---
 
-## ✨ Key Features
+<div align="center">
+
+## ✨ &nbsp;Features
+
+</div>
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🛰️ Multi-Source Satellite Data
-- Landsat 8/9 imagery
-- Sentinel-2 data integration
-- MODIS datasets
-- Custom data pipeline support
+### 🛰️ Multi-Source Imagery
+Pull from Landsat 8/9, Sentinel-2, and MODIS without juggling three different portals. One clean API, three data streams.
 
-### 🗺️ Interactive Mapping
-- Real-time GPS tracking
-- Dynamic layer overlays
-- Time-series visualization
-- Export capabilities (PNG, GeoJSON)
+### 🗺️ Interactive Maps
+Real-time GPS, layer overlays, time-series scrubbing, and one-click export to PNG or GeoJSON. Fast, Leaflet-powered.
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 📈 Advanced Analytics
-- NDVI (vegetation health)
-- Land use classification
-- Change detection algorithms
-- Temporal trend analysis
+### 📊 Analysis Engine
+NDVI for vegetation health, land-use classification, and temporal change detection — with configurable thresholds so you tune the sensitivity yourself.
 
-### 🔐 Enterprise Ready
-- Secure API authentication
-- Rate limiting & throttling
-- CORS configuration
-- Environment-based secrets
+### 🔐 Production-Ready Auth
+JWT + refresh token rotation, bcrypt password hashing, Redis rate limiting, Pydantic input validation. Secure from day one.
 
 </td>
 </tr>
@@ -93,293 +76,127 @@ SkyWatch Africa is a cutting-edge platform that democratizes access to satellite
 
 ---
 
-## 🏗️ System Architecture
+<div align="center">
 
-```mermaid
-graph TB
-    subgraph "Client Layer"
-        A[React Frontend<br/>Port: 3000]
-        A1[Leaflet Maps]
-        A2[Interactive UI]
-        A3[GPS Handler]
-    end
+## 🛰️ &nbsp;Data Sources
 
-    subgraph "API Gateway"
-        B[FastAPI Backend<br/>Port: 8000]
-        B1[Authentication]
-        B2[Rate Limiter]
-        B3[CORS Handler]
-    end
+</div>
 
-    subgraph "Data Processing"
-        C[Satellite Data Processor]
-        C1[Landsat API]
-        C2[Sentinel Hub]
-        C3[MODIS Interface]
-    end
-
-    subgraph "Analytics Engine"
-        D[Analysis Pipeline]
-        D1[NDVI Calculator]
-        D2[Change Detection]
-        D3[ML Models]
-    end
-
-    subgraph "Storage Layer"
-        E[(PostgreSQL<br/>Metadata)]
-        F[(Object Storage<br/>Imagery)]
-    end
-
-    A --> A1 & A2 & A3
-    A1 & A2 & A3 --> B
-    B --> B1 & B2 & B3
-    B1 & B2 & B3 --> C
-    C --> C1 & C2 & C3
-    C1 & C2 & C3 --> D
-    D --> D1 & D2 & D3
-    D --> E & F
-
-    style A fill:#61DAFB,stroke:#333,stroke-width:2px,color:#000
-    style B fill:#009688,stroke:#333,stroke-width:2px,color:#fff
-    style C fill:#FF6B35,stroke:#333,stroke-width:2px,color:#fff
-    style D fill:#4ECDC4,stroke:#333,stroke-width:2px,color:#000
-    style E fill:#FFD166,stroke:#333,stroke-width:2px,color:#000
-    style F fill:#FFD166,stroke:#333,stroke-width:2px,color:#000
-```
-
-### Data Flow
-
-```
-User Request → Authentication → Rate Limiting → Data Fetching → Processing → Analysis → Visualization
-     ↓               ↓               ↓               ↓              ↓           ↓            ↓
-  Browser       JWT Token        Queue Check      Satellite       Algorithms   Results    Interactive
-                                                    API                                     Map
-```
+| &nbsp; | Source | Resolution | Refresh |
+|:------:|--------|:----------:|:-------:|
+| 🛰️ | **Landsat 8/9** | 30 m | Every 16 days |
+| 🌍 | **Sentinel-2** | 10 m | Every 5 days |
+| 🔭 | **MODIS** | 250 m – 1 km | Daily |
 
 ---
 
-## 🛠️ Technology Stack
+<div align="center">
 
-### Backend
+## 🚀 &nbsp;Getting Started
 
-| Technology | Version | Purpose |
-|:----------:|:-------:|---------|
-| ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | `3.9+` | Core backend language |
-| ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) | `0.100+` | Async REST API framework |
-| ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white) | `15+` | Metadata & relational storage |
-| ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white) | `7+` | Caching & rate limiting |
-
-### Frontend
-
-| Technology | Version | Purpose |
-|:----------:|:-------:|---------|
-| ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black) | `18+` | UI framework |
-| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) | `5+` | Type safety |
-| ![Leaflet](https://img.shields.io/badge/Leaflet-199900?logo=leaflet&logoColor=white) | `1.9+` | Interactive maps |
-| ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white) | `3+` | Utility-first styling |
-
-### Data Sources
-
-| Source | Resolution | Purpose | Refresh |
-|--------|:----------:|---------|:-------:|
-| 🛰️ **Landsat 8/9** | 30 m | High-res multispectral imagery | Every 16 days |
-| 🌍 **Sentinel-2** | 10 m | ESA optical imagery, 13 bands | Every 5 days |
-| 🔭 **MODIS** | 250 m–1 km | Daily global coverage | Daily |
-
----
-
-## 🚀 Getting Started
+</div>
 
 ### Prerequisites
 
-Verify the following tools are installed before proceeding:
-
 ```bash
-python --version   # 3.9 or higher required
-node --version     # 16 or higher required
-npm --version
-git --version
+python --version   # 3.9+
+node --version     # 16+
+docker --version   # optional but recommended
 ```
 
-### Installation
+---
 
-#### 1️⃣ Clone the Repository
+### 🐳 Docker (Recommended)
+
+Spin up the full stack — frontend, backend, Postgres, Redis — in one command:
 
 ```bash
-# HTTPS
 git clone https://github.com/yourusername/skywatch-africa.git
-
-# SSH
-git clone git@github.com:yourusername/skywatch-africa.git
-
 cd skywatch-africa
-```
-
----
-
-### Backend Setup
-
-#### 2️⃣ Set Up Python Environment
-
-```bash
-cd backend
-
-# Create and activate virtual environment
-python -m venv venv
-source venv/bin/activate          # macOS / Linux
-# venv\Scripts\activate           # Windows
-
-pip install --upgrade pip
-```
-
-#### 3️⃣ Install Backend Dependencies
-
-```bash
-pip install -r requirements.txt
-pip list   # verify installation
-```
-
-#### 4️⃣ Configure Environment Variables
-
-```bash
-cp .env.example .env
-nano .env   # or your preferred editor
-```
-
-**Required `.env` variables:**
-
-```env
-# ── Database ──────────────────────────────────────────
-DATABASE_URL=postgresql://user:password@localhost:5432/skywatch_db
-POSTGRES_USER=skywatch_user
-POSTGRES_PASSWORD=your_secure_password
-POSTGRES_DB=skywatch_db
-
-# ── Satellite API Keys ────────────────────────────────
-LANDSAT_API_KEY=your_landsat_api_key
-SENTINEL_API_KEY=your_sentinel_api_key
-MODIS_API_KEY=your_modis_api_key
-
-# ── Security ──────────────────────────────────────────
-SECRET_KEY=your_super_secret_key_here_generate_with_openssl
-JWT_SECRET=your_jwt_secret_key
-API_KEY=your_api_authentication_key
-
-# ── Redis ─────────────────────────────────────────────
-REDIS_URL=redis://localhost:6379/0
-
-# ── Application ───────────────────────────────────────
-DEBUG=False
-ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000
-RATE_LIMIT_PER_MINUTE=60
-```
-
-> ⚠️ **Never commit your `.env` file.** It is already listed in `.gitignore`.
-
-#### 5️⃣ Initialize Database
-
-```bash
-alembic upgrade head              # run migrations
-python scripts/seed_data.py       # optional: seed sample data
-```
-
-#### 6️⃣ Start the Backend Server
-
-```bash
-# Development (auto-reload)
-uvicorn main:app --reload --host 127.0.0.1 --port 8000
-
-# Production
-uvicorn main:app --host 0.0.0.0 --port 8000 --workers 4
-```
-
-✅ Backend running at: `http://127.0.0.1:8000`  
-📚 Interactive API docs: `http://127.0.0.1:8000/docs`
-
----
-
-### Frontend Setup
-
-#### 7️⃣ Install Frontend Dependencies
-
-```bash
-cd ../frontend
-npm install
-npm audit fix   # optional: resolve vulnerabilities
-```
-
-#### 8️⃣ Configure Frontend Environment
-
-```bash
-cp .env.example .env
-```
-
-```env
-# ── API ───────────────────────────────────────────────
-REACT_APP_API_URL=http://127.0.0.1:8000
-REACT_APP_API_KEY=your_api_authentication_key
-
-# ── Map ───────────────────────────────────────────────
-REACT_APP_MAPBOX_TOKEN=your_mapbox_token
-REACT_APP_DEFAULT_ZOOM=5
-REACT_APP_DEFAULT_CENTER_LAT=0.0236
-REACT_APP_DEFAULT_CENTER_LNG=37.9062
-
-# ── Feature Flags ─────────────────────────────────────
-REACT_APP_ENABLE_GPS=true
-REACT_APP_ENABLE_ANALYTICS=true
-```
-
-#### 9️⃣ Start the Development Server
-
-```bash
-npm start   # opens automatically at http://localhost:3000
-```
-
-✅ Frontend running at: `http://localhost:3000`
-
----
-
-### 🐳 Docker Setup (Alternative)
-
-Spin up the entire stack — frontend, backend, PostgreSQL, and Redis — with a single command:
-
-```bash
-docker-compose up -d        # start all services
-docker-compose logs -f      # stream logs
-docker-compose down         # stop services
-docker-compose down -v      # stop + remove volumes
+docker-compose up -d
 ```
 
 | Service | URL |
 |---------|-----|
-| Frontend | `http://localhost:3000` |
-| Backend | `http://localhost:8000` |
-| PostgreSQL | `localhost:5432` |
-| Redis | `localhost:6379` |
+| 🖥️ Frontend | http://localhost:3000 |
+| ⚡ Backend API | http://localhost:8000 |
+| 📚 API Docs | http://localhost:8000/docs |
 
 ---
 
-## 📖 API Documentation
+### 🛠️ Manual Setup
 
-### Authentication
+**Backend**
 
-All requests require a Bearer token in the `Authorization` header:
+```bash
+cd backend
+python -m venv venv && source venv/bin/activate
+# Windows: venv\Scripts\activate
+
+pip install -r requirements.txt
+cp .env.example .env        # fill in your API keys
+alembic upgrade head        # run database migrations
+uvicorn main:app --reload --port 8000
+```
+
+**Frontend**
+
+```bash
+cd frontend
+npm install
+cp .env.example .env        # point REACT_APP_API_URL at your backend
+npm start
+```
+
+---
+
+### 🔑 Environment Variables
+
+```env
+# ── Database ─────────────────────────────────────────
+DATABASE_URL=postgresql://user:password@localhost:5432/skywatch_db
+
+# ── Satellite API Keys ───────────────────────────────
+LANDSAT_API_KEY=your_key_here
+SENTINEL_API_KEY=your_key_here
+MODIS_API_KEY=your_key_here
+
+# ── Security (generate with: openssl rand -hex 32) ───
+SECRET_KEY=...
+JWT_SECRET=...
+
+# ── Redis ────────────────────────────────────────────
+REDIS_URL=redis://localhost:6379/0
+
+# ── Frontend ─────────────────────────────────────────
+REACT_APP_API_URL=http://127.0.0.1:8000
+REACT_APP_MAPBOX_TOKEN=your_mapbox_token
+REACT_APP_DEFAULT_CENTER_LAT=0.0236
+REACT_APP_DEFAULT_CENTER_LNG=37.9062
+```
+
+> ⚠️ **Never commit `.env`** — it's already in `.gitignore`. Use AWS Secrets Manager or HashiCorp Vault in production.
+
+---
+
+<div align="center">
+
+## 📡 &nbsp;API Reference
+
+</div>
+
+All requests require a Bearer token:
 
 ```http
 Authorization: Bearer YOUR_API_KEY
 ```
 
-### Core Endpoints
+<details>
+<summary><b>🗺️&nbsp; POST /api/v1/satellite/query — Fetch imagery</b></summary>
 
-#### 🗺️ Get Satellite Imagery
+<br/>
 
-```http
-POST /api/v1/satellite/query
-Content-Type: application/json
-Authorization: Bearer YOUR_API_KEY
-```
-
+**Request:**
 ```json
 {
   "coordinates": { "lat": -1.2921, "lon": 36.8219 },
@@ -389,9 +206,7 @@ Authorization: Bearer YOUR_API_KEY
 }
 ```
 
-<details>
-<summary>📤 Sample Response</summary>
-
+**Response:**
 ```json
 {
   "status": "success",
@@ -405,18 +220,12 @@ Authorization: Bearer YOUR_API_KEY
   }
 }
 ```
-
 </details>
 
----
+<details>
+<summary><b>📊&nbsp; POST /api/v1/analysis/ndvi — Vegetation index</b></summary>
 
-#### 📊 Calculate NDVI
-
-```http
-POST /api/v1/analysis/ndvi
-Content-Type: application/json
-Authorization: Bearer YOUR_API_KEY
-```
+<br/>
 
 ```json
 {
@@ -427,408 +236,186 @@ Authorization: Bearer YOUR_API_KEY
   }
 }
 ```
+</details>
 
----
+<details>
+<summary><b>🔍&nbsp; POST /api/v1/analysis/change-detection — Compare time periods</b></summary>
 
-#### 🔍 Change Detection
-
-```http
-POST /api/v1/analysis/change-detection
-Content-Type: application/json
-Authorization: Bearer YOUR_API_KEY
-```
+<br/>
 
 ```json
 {
   "before_date": "2023-01-01",
   "after_date":  "2024-01-01",
-  "coordinates": { ... },
+  "coordinates": { "lat": -1.2921, "lon": 36.8219 },
   "threshold": 0.15
 }
 ```
+</details>
 
----
+<br/>
 
-### Rate Limits
+**Rate Limits**
 
-| Plan | Requests / Minute | Requests / Day |
-|------|:-----------------:|:--------------:|
+| Plan | Per Minute | Per Day |
+|------|:----------:|:-------:|
 | 🆓 Free | 60 | 1,000 |
 | ⚡ Pro | 300 | 10,000 |
 | 🏢 Enterprise | Custom | Custom |
 
 ---
 
-## 📁 Project Structure
+<div align="center">
+
+## 📁 &nbsp;Project Structure
+
+</div>
 
 ```
 skywatch-africa/
 ├── 📂 backend/
-│   ├── 📂 app/
-│   │   ├── 📂 api/
-│   │   │   ├── 📂 v1/
-│   │   │   │   ├── endpoints/
-│   │   │   │   │   ├── satellite.py
-│   │   │   │   │   ├── analysis.py
-│   │   │   │   │   └── auth.py
-│   │   │   │   └── api.py
-│   │   │   └── deps.py
-│   │   ├── 📂 core/
-│   │   │   ├── config.py
-│   │   │   ├── security.py
-│   │   │   └── rate_limiter.py
-│   │   ├── 📂 models/
-│   │   │   ├── user.py
-│   │   │   ├── imagery.py
-│   │   │   └── analysis.py
-│   │   ├── 📂 services/
-│   │   │   ├── satellite_service.py
-│   │   │   ├── analysis_service.py
-│   │   │   └── storage_service.py
-│   │   └── 📂 utils/
-│   │       ├── validators.py
-│   │       └── helpers.py
-│   ├── 📂 tests/
-│   ├── 📂 migrations/
-│   ├── main.py
-│   ├── requirements.txt
-│   └── .env.example
+│   ├── app/
+│   │   ├── api/v1/         → satellite.py, analysis.py, auth.py
+│   │   ├── core/           → config, security, rate_limiter
+│   │   ├── models/         → user, imagery, analysis
+│   │   └── services/       → satellite, analysis, storage
+│   ├── migrations/
+│   ├── tests/
+│   └── main.py
 │
 ├── 📂 frontend/
-│   ├── 📂 public/
-│   └── 📂 src/
-│       ├── 📂 components/
-│       │   ├── 📂 Map/
-│       │   │   ├── MapContainer.tsx
-│       │   │   ├── LayerControl.tsx
-│       │   │   └── GPS.tsx
-│       │   ├── 📂 Analysis/
-│       │   │   ├── NDVIChart.tsx
-│       │   │   └── ChangeDetection.tsx
-│       │   └── 📂 UI/
-│       │       ├── Button.tsx
-│       │       ├── Card.tsx
-│       │       └── Modal.tsx
-│       ├── 📂 hooks/
-│       │   ├── useMap.ts
-│       │   ├── useGPS.ts
-│       │   └── useAPI.ts
-│       ├── 📂 services/
-│       │   └── api.ts
-│       ├── App.tsx
-│       └── index.tsx
+│   └── src/
+│       ├── components/     → Map, Analysis, UI
+│       ├── hooks/          → useMap, useGPS, useAPI
+│       └── services/       → api.ts
 │
-├── 📂 docs/
-│   ├── API.md
-│   ├── ARCHITECTURE.md
-│   └── CONTRIBUTING.md
 ├── 📂 scripts/
-│   ├── seed_data.py
-│   └── backup.sh
 ├── docker-compose.yml
-├── .gitignore
-├── LICENSE
 └── README.md
 ```
 
 ---
 
-## 🔐 Security Best Practices
+<div align="center">
 
-### Production Checklist
+## 🐛 &nbsp;Troubleshooting
 
-- [ ] **Enable CORS Properly**
-
-  ```python
-  # backend/app/core/config.py
-  ALLOWED_ORIGINS = [
-      "https://yourdomain.com",
-      "https://www.yourdomain.com",
-  ]
-  ```
-
-- [ ] **JWT Authentication with bcrypt**
-
-  ```python
-  # Implement JWT with access + refresh token rotation
-  # Use bcrypt for all password hashing
-  ```
-
-- [ ] **Strict Input Validation**
-
-  ```python
-  from pydantic import BaseModel, validator
-
-  class CoordinateInput(BaseModel):
-      lat: float
-      lon: float
-
-      @validator('lat')
-      def validate_latitude(cls, v):
-          if not -90 <= v <= 90:
-              raise ValueError('Invalid latitude')
-          return v
-  ```
-
-- [ ] **Rate-Limit All Endpoints**
-
-  ```python
-  from slowapi import Limiter
-  from slowapi.util import get_remote_address
-
-  limiter = Limiter(key_func=get_remote_address)
-
-  @app.get("/api/data")
-  @limiter.limit("60/minute")
-  async def get_data():
-      ...
-  ```
-
-- [ ] **Store Secrets in Environment Variables**
-
-  ```bash
-  # Never commit .env files
-  # Use AWS Secrets Manager or HashiCorp Vault in production
-  # Rotate API keys regularly
-  ```
-
-- [ ] **Enable HTTPS in production**
-- [ ] **Implement structured request logging**
-- [ ] **Sanitize all user inputs**
-- [ ] **Use SQLAlchemy ORM — no raw SQL strings**
-- [ ] **Run regular security audits (`pip-audit`, `npm audit`)**
-
----
-
-## 🐛 Troubleshooting
-
-### Backend Issues
+</div>
 
 <details>
-<summary>❌ <strong>Backend won't start</strong> — <code>ModuleNotFoundError</code></summary>
+<summary><b>❌ &nbsp;Backend won't start — ModuleNotFoundError</b></summary>
+
+<br/>
 
 ```bash
-cd backend
-pip install -r requirements.txt --upgrade
-pip install --upgrade setuptools wheel
-
-# If issues persist, recreate the virtual environment
-deactivate
-rm -rf venv
-python -m venv venv
-source venv/bin/activate
+deactivate && rm -rf venv
+python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ```
-
 </details>
 
 <details>
-<summary>❌ <strong>Database connection error</strong> — <code>sqlalchemy.exc.OperationalError</code></summary>
+<summary><b>❌ &nbsp;Database connection error</b></summary>
+
+<br/>
 
 ```bash
-# Verify PostgreSQL is running
 sudo service postgresql status     # Linux
 brew services list                 # macOS
 
-# Test connection
-psql -U skywatch_user -d skywatch_db -h localhost
-
-# Reset database
-dropdb skywatch_db
-createdb skywatch_db
+# Reset the database
+dropdb skywatch_db && createdb skywatch_db
 alembic upgrade head
 ```
-
-</details>
-
-### Frontend Issues
-
-<details>
-<summary>❌ <strong>Frontend can't connect to backend</strong></summary>
-
-1. Confirm the backend is running:
-   ```bash
-   curl http://127.0.0.1:8000/health
-   ```
-2. Check CORS settings in `backend/app/core/config.py`
-3. Verify your `.env`:
-   ```env
-   REACT_APP_API_URL=http://127.0.0.1:8000
-   ```
-4. Open browser DevTools (F12) → Network tab for error details
-
 </details>
 
 <details>
-<summary>❌ <strong>GPS doesn't work</strong> — "Location access denied"</summary>
+<summary><b>❌ &nbsp;Map tiles not loading (gray squares)</b></summary>
 
-1. Grant browser location permission when prompted
-2. Ensure you're serving over `localhost` or HTTPS (browser requirement)
-3. Check browser settings:
-   - Chrome: `chrome://settings/content/location`
-   - Firefox: `about:preferences#privacy`
+<br/>
 
-</details>
-
-<details>
-<summary>❌ <strong>Map tiles not loading</strong> — gray squares</summary>
-
-```javascript
-// Verify your Mapbox token in .env
+```env
+# Check your .env file
 REACT_APP_MAPBOX_TOKEN=pk.your_token_here
+```
 
-// Or switch to the free OpenStreetMap provider
+Or switch to free OpenStreetMap tiles — no token needed:
+```js
 const tileUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 ```
-
 </details>
-
-### Performance Issues
 
 <details>
-<summary>🐌 <strong>Slow API responses</strong></summary>
+<summary><b>🐌 &nbsp;Slow API responses</b></summary>
 
-**Diagnose:**
-```bash
-tail -f backend/logs/app.log
+<br/>
 
-# Enable SQL query logging
-SQLALCHEMY_ECHO=True   # in backend/app/core/config.py
-```
-
-**Solutions:**
 - Enable Redis caching for repeated satellite queries
-- Add PostgreSQL indexes on `coordinates` and `date` columns
+- Add indexes on `coordinates` and `date` columns in PostgreSQL
 - Use a CDN for static imagery delivery
-- Optimize large GeoJSON payloads with simplification
-
+- Simplify large GeoJSON payloads with geometry simplification before sending to the client
 </details>
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from developers, researchers, and environmental scientists! Here's how to get involved:
-
-### Ways to Contribute
-
-| Type | Description |
-|------|-------------|
-| 🐛 **Bug Fixes** | Fix issues and improve stability |
-| ✨ **UI Improvements** | Enhance user experience and design |
-| 🚀 **API Enhancements** | Add new endpoints and features |
-| 📚 **Documentation** | Improve guides and tutorials |
-| 🔬 **Research Features** | Add new analysis algorithms |
-
-### Contribution Workflow
-
-```bash
-# 1. Fork on GitHub, then clone your fork
-git clone https://github.com/YOUR_USERNAME/skywatch-africa.git
-
-# 2. Create a feature branch
-git checkout -b feature/amazing-feature
-
-# 3. Make your changes — write clean, tested code
-
-# 4. Commit using Conventional Commits
-git add .
-git commit -m "feat: add amazing feature"
-
-# 5. Push and open a Pull Request
-git push origin feature/amazing-feature
-```
-
-### Development Setup for Contributors
-
-```bash
-# Install dev dependencies
-pip install -r requirements-dev.txt
-npm install --save-dev
-
-# Run tests
-pytest backend/tests/
-npm test
-
-# Lint and format
-flake8 backend/
-black backend/ --check
-eslint src/
-```
-
-### Coding Standards
-
-- **Python** — Follow [PEP 8](https://pep8.org/)
-- **TypeScript / React** — Use the ESLint config provided
-- **Commits** — Use [Conventional Commits](https://www.conventionalcommits.org/)
-- **Tests** — Maintain >80% code coverage
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see [`LICENSE`](LICENSE) for full details.
-
-```
-MIT License
-
-Copyright (c) 2024 SkyWatch Africa
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software...
-```
-
----
-
-## ⭐ Support
-
-### Show Your Support
-
-If SkyWatch Africa is useful to you, please:
-
-- ⭐ **Star this repository** to help others discover it
-- 🐛 **Report bugs** via [GitHub Issues](https://github.com/yourusername/skywatch-africa/issues)
-- 💡 **Suggest features** in [Discussions](https://github.com/yourusername/skywatch-africa/discussions)
-- 📢 **Share** with your network and research community
-
-### Get Help
-
-| Channel | Link |
-|---------|------|
-| 📖 Documentation | [docs.skywatch.africa](https://docs.skywatch.africa) |
-| 💬 Community Forum | [community.skywatch.africa](https://community.skywatch.africa) |
-| 📧 Email Support | support@skywatch.africa |
-| 🐦 Twitter / X | [@SkywatchAfrica](https://twitter.com/SkywatchAfrica) |
-
-### Acknowledgments
-
-Built with contributions from:
-
-- African research institutions and universities
-- Environmental NGOs across the continent
-- Open-source satellite data providers (NASA, ESA)
-- The amazing global open-source community 🌍
 
 ---
 
 <div align="center">
 
-### 🌍 Making Satellite Data Accessible to Everyone
+## 🤝 &nbsp;Contributing
 
-Built with ❤️ by citizen scientists, for citizen scientists across Africa
+</div>
 
-[Website](https://skywatch.africa) • [Documentation](https://docs.skywatch.africa) • [API](https://api.skywatch.africa) • [Community](https://community.skywatch.africa)
+We welcome contributions from developers, researchers, and environmental scientists.
+
+```bash
+# 1. Fork the repo on GitHub, then clone your fork
+git clone https://github.com/YOUR_USERNAME/skywatch-africa.git
+
+# 2. Create a feature branch
+git checkout -b feature/your-feature-name
+
+# 3. Run tests before pushing
+pytest backend/tests/
+npm test
+
+# 4. Commit with conventional style
+git commit -m "feat: describe your change"
+
+# 5. Push and open a PR
+git push origin feature/your-feature-name
+```
+
+| Type | Welcome |
+|------|---------|
+| 🐛 Bug fixes | Stability improvements |
+| ✨ UI improvements | Better UX and design |
+| 🔬 New algorithms | NDWI, EVI, burned area, etc. |
+| 📚 Docs | Guides, tutorials, translations |
+
+**Standards:** PEP 8 for Python · ESLint config for TypeScript · 80%+ test coverage · [Conventional Commits](https://www.conventionalcommits.org/)
 
 ---
 
-**SkyWatch Africa © 2024** — Empowering environmental monitoring through technology.
+<div align="center">
 
-![Visitors](https://img.shields.io/badge/dynamic/json?label=Visitors&query=value&url=https://api.countapi.xyz/hit/skywatch-africa/visits&color=FF6B35&style=flat-square)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/skywatch-africa?style=flat-square&color=FFD166)](https://github.com/yourusername/skywatch-africa/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/skywatch-africa?style=flat-square&color=06D6A0)](https://github.com/yourusername/skywatch-africa/network/members)
+## 📄 &nbsp;License
+
+MIT — see [LICENSE](LICENSE) for full details.
+
+---
+
+## 🌐 &nbsp;Get Help
+
+[![Docs](https://img.shields.io/badge/Documentation-FF6B35?style=for-the-badge&logo=gitbook&logoColor=white)](https://docs.skywatch.africa)
+[![Community](https://img.shields.io/badge/Community-4ECDC4?style=for-the-badge&logo=discourse&logoColor=white)](https://community.skywatch.africa)
+[![Email](https://img.shields.io/badge/Email_Support-FFD166?style=for-the-badge&logo=gmail&logoColor=black)](mailto:support@skywatch.africa)
+[![Twitter](https://img.shields.io/badge/@SkywatchAfrica-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/SkywatchAfrica)
+
+<br/>
+
+<!-- Animated Footer Wave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=140&section=footer&animation=fadeIn&text=Making%20Satellite%20Data%20Accessible%20to%20Everyone&fontSize=16&fontColor=ffffff&fontAlignY=65" width="100%"/>
+
+**SkyWatch Africa © 2026** — Built with ❤️ by Luthando Candlovu, for citizen scientists.
 
 </div>
 
