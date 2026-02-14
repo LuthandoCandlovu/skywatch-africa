@@ -1,4 +1,4 @@
-I'll create a beautiful, animated README.md file for SkyWatch Africa with visual appeal and engaging elements.
+
 
 ```markdown
 <div align="center">
